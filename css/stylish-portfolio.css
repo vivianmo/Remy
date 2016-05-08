@@ -37,6 +37,12 @@ body {
     background-color: rgba(0,0,0,0.4);
 }
 
+.btn-pink{
+    border-radius: 0;
+    color: #643121;
+    background-color: #ebcac4;
+}
+
 .btn-dark:hover,
 .btn-dark:focus,
 .btn-dark:active {
@@ -148,6 +154,22 @@ hr.small {
     margin: 5px 5px 0 0;
 }
 
+/* Nav Bar */
+.navbar-header {
+    height: 65px;
+    padding-top: 10px;
+}
+
+.navbar-button {
+    font-size: 20px; 
+    color: #643121;
+}
+
+.navbar-nav {
+    height: 65px; 
+    padding: 15px; 
+    padding-left: 20px; 
+}
 /* Header */
 
 .header {
@@ -155,11 +177,27 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/cover.png) no-repeat center center scroll;
+    background: url(../img/cover.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    background-size: 100% auto;
+    background-size: cover 100%;
     -o-background-size: cover;
+}
+
+.lady {
+    display: table;
+    position: relative;
+    height: 50%
+    background: url(../img/lady.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.price {
+    font-size: 20px; 
+    padding: 10px; 
 }
 
 .playfair{
@@ -170,42 +208,117 @@ hr.small {
     font-family: 'Open Sans',arial,sans-serif; 
 }
 
+.brown {
+    color: #643121;
+}
+.light-brown {
+    color: #975c4a;
+}
+.pink {
+    color: #ebcac4; 
+}
+.dark-pink {
+    color: #e2a99f;
+}
 /* About */
 
 .about {
     padding: 50px 0;
+
 }
 .aboutcap {
   font-family: 'Open Sans',arial,sans-serif; 
+  margin-top: 20px;
   margin-bottom: 20px;
-  font-size: 16px;
+  padding-left: 50px; 
+  padding-right: 50px; 
+  font-size: 20px;
   font-weight: 300;
   line-height: 1.4;
 }
 
-/* Services */
-
-.services {
-    padding: 50px 0;
+/* More */
+.tedbaker {
+    padding: 20px; 
 }
 
-.service-item {
-    margin-bottom: 30px;
-}
-
-/* Callout */
-
-.callout {
-    display: table;
-    width: 100%;
-    height: 400px;
-    color: #fff;
-    background: url(../img/callout.jpg) no-repeat center center scroll;
-    background-size: 100% auto; 
+.more {
+    margin-top: 50px; 
+    background: url(../img/tedbaker.png) center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+.more-words {
+    padding: 50px;
+    padding-left: 90px; 
+    margin-top: 120px;
+}
+
+/* About Page */ 
+.img-headshot{
+    margin: 0 auto;
+    padding-top: 30px; 
+}
+
+.about-us-header{
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 50%;
+    background-color: #643121; 
+}
+.img-about{
+    padding-top: 20px; 
+    margin-right: auto; 
+    margin-left: auto;
+}
+
+.img-play{
+    padding-top: 20px; 
+    margin-right: auto; 
+    margin-left: auto;
+}
+
+.for-work{
+    padding-top: 100px;
+}
+
+.no-pad {
+    padding: 0px;
+    margin-bottom: 30px; 
+}
+
+/* Press */
+
+.press-block {
+    border:2px solid;
+    border-color: #e2a99f; 
+    padding:2em;
+    max-width:270px;
+    height: 300px; 
+    text-align:center;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    margin:0 auto 1em
+}
+
+.press-quote {
+    font-size:16px;
+    color: #643121; 
+    margin-bottom:2em;
+}
+
+.press-logo {padding:0 0 2.5em;font-weight:600}
+.press-logo img {
+    max-width:122px;
+    max-height:50px; 
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Portfolio */
@@ -253,3 +366,4 @@ hr.small {
 footer {
     padding: 100px 0;
 }
+

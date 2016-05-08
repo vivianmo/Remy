@@ -3003,7 +3003,6 @@ select[multiple].input-lg {
   }
 }
 .btn {
-  font-family: 'Open Sans',arial,sans-serif; 
   display: inline-block;
   padding: 6px 12px;
   margin-bottom: 0;
@@ -4184,8 +4183,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-collapse {
-  padding-right: 15px;
+  padding-right: 150px;
   padding-left: 15px;
+  height:100px;
   overflow-x: visible;
   -webkit-overflow-scrolling: touch;
   border-top: 1px solid transparent;
