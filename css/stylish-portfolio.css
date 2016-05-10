@@ -236,6 +236,27 @@ hr.small {
   font-weight: 300;
   line-height: 1.4;
 }
+.aboutinsta {
+  font-family: 'Open Sans',arial,sans-serif; 
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 50px; 
+  padding-right: 50px; 
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+.quote {
+  font-family: 'Open Sans',arial,sans-serif; 
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 50px; 
+  padding-right: 50px; 
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1.4;
+}
 
 /* More */
 .tedbaker {
@@ -302,12 +323,15 @@ hr.small {
 }
 
 .for-work{
-    padding-top: 100px;
+    padding-top: 10px;
 }
 
 .no-pad {
     padding: 0px;
     margin-bottom: 30px; 
+}
+.true-no-pad {
+    padding: 0px;
 }
 
 .insta {
@@ -322,6 +346,21 @@ hr.small {
     background-color: #643121; 
 }
 
+.thanks{
+    display: table;
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #ebcac4; ; 
+}
+
+.meet-us{
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 10%;
+    background-color: #643121; 
+}
 /* Press */
 
 .press-block {
@@ -355,7 +394,7 @@ hr.small {
 /* Portfolio */
 
 .portfolio {
-    padding: 50px 0;
+    padding-top: 30px;
 }
 
 .portfolio-item {
@@ -399,6 +438,7 @@ hr.small {
     padding: 100px 0;
 }
 
+/* From Ringly style sheet  */
 user-photos{overflow:hidden}.user-photo{float:left;height:0;background-position:center center;background-repeat:no-repeat;background-size:100%;width:50%;padding-bottom:50%;-webkit-user-select:none;user-select:none}.user-photo:after{content:attr(data-alt);position:absolute;top:0;right:0;bottom:0;left:0;background:#fff;background:rgba(255,255,255,0.8);color:#333;font-size:12px;line-height:0;padding-top:50%;opacity:0;-webkit-transition:opacity .3s ease-in-out;-moz-transition:opacity .3s ease-in-out;-o-transition:opacity .3s ease-in-out;transition:opacity .3s ease-in-out}
 html.no-touch .user-photo:hover:after,.user-photo.selected:after{opacity:1}@media(min-width:768px){.user-quotes-shop,.user-quote{margin-bottom:60px}.user-quotes{overflow:hidden;margin-bottom:60px}.user-quote{position:relative;margin-bottom:0}.user-quote:after{content:"";position:absolute;top:100%;left:0;width:100%;height:300%;background:#f1edf5}.user-photo{width:16.66666667%;padding-bottom:16.66666667%}}
 
